@@ -1,0 +1,44 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  text-align: center;
+  min-width: 1000px;
+  margin-bottom: 20px;
+}
+
+.navbar-container {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.text-input-field {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 10px;
+}
+
+.label-input-field {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 15px;
+}
+
+.dropdown-input-field {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+
+.button-input-field {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 8px;
+}
+
+.dropdown-menu {
+    min-width: 250px;
+}
