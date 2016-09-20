@@ -11,9 +11,16 @@ http://tomcat.apache.org/
 Maven 
 https://maven.apache.org/
 
-	Step 1. Start tomcat
-	Step 2. Deploy the sunflower.war (located in sunflower/target folder). You should see a folder named sunflower is built in the webapp folder of tomcat after deploying.
-	Step 3. Go to localhost:8080/sunflower using your browser
+	Pull the code from github
+	Download Wikipedia files from the follwoing link:
+	https://1drv.ms/u/s!AhwMhF1pBkPqmmehD90ECZbYJk91
+	Unzip and place them somewhere convienent (you can put them in the resources folder in project)
+	Edit addresses in sunflower/src/main/java/org/sunflower/util/sunflower.conf
+	Build the project using maven (clean and package)
+	Start tomcat
+	Deploy the sunflower.war (located in sunflower/target folder) in your tomcat server (place the war file in webapps folder of tomcat.)
+	You should see a folder named sunflower is built in the webapp folder of tomcat after deploying.
+	Go to localhost:8080/sunflower using your browser
 	If the sunflower application is not working at this stage, please check the log file of your tomcat and make sure the application is deployed successfully. 
 
 
